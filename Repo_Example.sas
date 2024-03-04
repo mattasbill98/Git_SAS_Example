@@ -2,7 +2,6 @@ proc print data =  sashelp.cars;
 run;
 
 proc means data =  sashelp.cars;
-var cylinders MPG_Highway;
+var cylinders MPG_Highway Horsepower;
 run;
 
-*Updating a comment;
