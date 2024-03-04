@@ -1,8 +1,10 @@
 proc print data =  sashelp.cars;
 run;
 
-*Adding proc means;
+*Proc Means;
 proc means data =  sashelp.cars;
-var cylinders MPG_Highway Horsepower weight;
+var cylinders MPG_Highway Horsepower Weight EngineSize;
 run;
+
+
 
