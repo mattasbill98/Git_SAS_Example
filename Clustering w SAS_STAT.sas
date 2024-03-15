@@ -15,3 +15,6 @@ ods graphics off;
 proc fastclus data=sashelp.iris maxc=3 maxiter=10 out=clus;
    var SepalLength SepalWidth PetalLength PetalWidth;
 run;
+
+proc print data=work.clus;
+run;
